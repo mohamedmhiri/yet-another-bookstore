@@ -1,0 +1,29 @@
+{
+  "name": "yet_an_oher_book_store",
+  "version": "1.0.0",
+  "description": "ppp_project",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha index.js",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ppp-4-th-degree.visualstudio.com/_git/MyFirstProject"
+  },
+  "author": "mohamed_mhiri && Maryem_ben_yahia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://ppp-4-th-degree.visualstudio.com/_git/MyFirstProject/issues"
+  },
+  "homepage": "https://ppp-4-th-degree.visualstudio.com/_git/MyFirstProject#readme",
+  "dependencies": {
+    "express": "^4.15.1",
+    "mongoose": "^4.8.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "^9.0.0"
+  }
+}

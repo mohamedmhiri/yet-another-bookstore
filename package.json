@@ -4,26 +4,31 @@
   "description": "ppp_project",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha index.js",
+    "test": "mocha src/models/**.js",
     "start": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ppp-4-th-degree.visualstudio.com/_git/MyFirstProject"
+    "url": "git+https://github.com/mohamedmhiri/yet-another-bookstore"
   },
   "author": "mohamed_mhiri && Maryem_ben_yahia",
   "license": "ISC",
   "bugs": {
-    "url": "https://ppp-4-th-degree.visualstudio.com/_git/MyFirstProject/issues"
+    "url": "https://github.com/mohamedmhiri/yet-another-bookstore/issues"
   },
-  "homepage": "https://ppp-4-th-degree.visualstudio.com/_git/MyFirstProject#readme",
+  "homepage": "https://github.com/mohamedmhiri/yet-another-bookstore#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.1",
-    "mongoose": "^4.8.6"
+    "mongoose": "^4.8.6",
+    "should": "^11.2.0"
   },
   "devDependencies": {
+    "assert": "^1.4.1",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "standard": "^9.0.0"
+    "request": "^2.80.0",
+    "standard": "^9.0.0",
+    "supertest": "^3.0.0"
   }
 }

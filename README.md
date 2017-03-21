@@ -3,8 +3,8 @@
 ## Description
 
 yetanoherbookstore or simply YOBS is our mean ppp project
-##Installation
-####How Do I YOBS ?
+## Installation
+#### How Do I YOBS ?
 first install git and node
 
 then open your Bash (Unix like) or your command prompt (Windows) 

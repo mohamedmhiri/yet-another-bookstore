@@ -84,6 +84,4 @@ updateBook: (req, res, next) => {
 
 }
 };
-=======
-'use strict'
->>>>>>> d9488e0b025d4b7f00b80a588589f992e74c565f
+

@@ -6,8 +6,7 @@ const Schema = mongoose.Schema
 const categorySchema = Schema({
   _id: {
     type: Number,
-    required: true,
-    unique: true
+    required: true
   },
   isDeleted: {
     type: Number,

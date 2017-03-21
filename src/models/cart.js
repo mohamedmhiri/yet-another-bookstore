@@ -7,8 +7,8 @@ const cartSchema = Schema({
 
   _id: {
     type: Number,
-    required: true,
-    unique: true
+    required: true
+    
   },
   date: {
     type: Date,

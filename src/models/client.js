@@ -1,13 +1,12 @@
 'use strict'
 const mongoose = require('mongoose')
-const validator = require('validator')
+//const validator = require('validator')
 const Schema = mongoose.Schema
 
 var clientSchema = Schema({
   _id: {
     type: Number,
-    required: true,
-    unique: true
+    required: true
   },
   name: {
     type: String,
@@ -36,7 +35,7 @@ var clientSchema = Schema({
 
 var Client = mongoose.model('Client', clientSchema)
 
-Client.schema.path('email').validate(function (email) {
+/*Client.schema.path('email').validate(function (email) {
   return validator.isEmail(email)
 })
 
@@ -45,5 +44,5 @@ Client.schema.path('password').validate(function (password) {
 })
 Client.schema.path('tel').validate(function (tel) {
   return validator.isLength(tel, 8)
-})
+})*/
 module.exports = Client

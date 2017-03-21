@@ -1,4 +1,5 @@
 # yet-another-bookstore
+
 ##Description
 
 yetanoherbookstore or simply YOBS is our mean ppp project
@@ -14,7 +15,7 @@ Now go under that directory with "cd yet-another-bookstore" and type "npm instal
 
 finally start the project with "npm start"
 
-#####You can mail us if you have any advices
+####You can mail us if you have any advices
 mohamed_mhiri's mail: med.mhiri.5@gmail.com
 
 maryem_ben_yahia's mail: ben.yahia.maryem@gmail.com

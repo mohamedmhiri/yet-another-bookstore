@@ -6,8 +6,7 @@ const Schema = mongoose.Schema
 const bookSchema = Schema({
   _id: {
     type: Number,
-    required: true,
-    unique: true
+    required: true
   },
   name: {
     type: String,

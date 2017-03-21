@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/mohamedmhiri/yet-another-bookstore#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.1",
     "mongoose": "^4.8.6",
-    "should": "^11.2.0"
+    "should": "^11.2.0",
+    "validator": "^7.0.0"
   },
   "devDependencies": {
     "assert": "^1.4.1",

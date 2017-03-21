@@ -1,13 +1,17 @@
 'use strict'
 const mongoose = require('mongoose')
+mongoose.connect('mongodb://localhost:27017/data')
 const validator = require('validator')
+mongoose.Promise = Promise
 const Schema = mongoose.Schema
 
 const categorySchema = Schema({
   _id: {
     type: Number,
-    required: true,
-    unique: true
+    required: true
+  },
+  name:{
+    type: String
   },
   isDeleted: {
     type: Number,

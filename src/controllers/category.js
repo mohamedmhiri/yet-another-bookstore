@@ -36,6 +36,19 @@ module.exports = {
             }
             res.json(response);
         });
+    },
+    // fetch a category by id
+    getCategory: (req, res) => {
+        var response = {}
+        category.findOne({_id: req.params._id}, (err, category) => {
+            // Mongo command to fetch all data from collection.
+            if(err) {
+                response = {"error" : true, "message" : "Error fetching data"};
+            } else {
+                response = {"error" : false, "message" : category};
+            }
+            res.json(response);
+        })
     }
 
 }
